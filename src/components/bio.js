@@ -34,11 +34,10 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              <strong>{author}</strong> &mdash; I'm a web developer, a published knitwear designer, an award-winning sock knitter, and a pole dancer. You'll find at least that much eclecticism here.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                You should follow me on Twitter
               </a>
             </p>
           </Container>

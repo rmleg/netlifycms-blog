@@ -1,12 +1,13 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Kyle Matthews`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
+    title: `Rachel Leggett Blog`,
+    author: `Rachel Leggett`,
+    description: `A personal blog about knitting, tech, and everything in between.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `rleggos`,
+      instagram: 'arbortwist'
     },
   },
   plugins: [
@@ -20,7 +21,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
-        name: `blog`,
+        name: `blog`, 
       },
     },
     {
